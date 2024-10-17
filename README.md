@@ -7,7 +7,7 @@
 **_The course includes:_**
 - a very thorough Postman practice in different contexts,
 - automation with Newman,
-- test automation with Jenkins
+- test automation with Jenkins.
   
 
 
