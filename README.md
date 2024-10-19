@@ -6,6 +6,8 @@
 
 **_The course includes:_**
 - a very thorough Postman practice in different contexts,
+- test API automation with scripts,
+- JavaScript fundamentals,
 - automation with Newman,
 - test automation with Jenkins.
   
