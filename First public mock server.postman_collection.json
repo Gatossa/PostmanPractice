@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "abffc931-68a4-4f94-adb7-6256de0aa39f",
+		"name": "First public mock server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28623259"
+	},
+	"item": [
+		{
+			"name": "users/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/users/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/users/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"1"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "This is user 1"
+				}
+			]
+		},
+		{
+			"name": "users/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/users/2",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/users/2",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"users",
+								"2"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "This is user 2"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://4d12697c-015a-496d-b77b-593b202cb4dd.mock.pstmn.io"
+		}
+	]
+}
